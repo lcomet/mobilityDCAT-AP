@@ -19,19 +19,19 @@ var respecConfig = {
     addSectionLinks: true,
     maxTocLevel: 3,
     doJsonLd: true,
-    noRecTrack: false,    
-    subtitle: "A geospatial extension for the DCAT application profile for data portals in Europe",
+    noRecTrack: false,
+    subtitle: "A mobility extension for the DCAT application profile for data portals in Europe",
 //    copyrightHolder: "European Union",
 //    copyrightURL: "https://europa.eu/",
     copyrightStart: 2020,
-    publishDate: "2020-12-23",
+    publishDate: "2023-03-30",
 
     alternateFormats: [
 /*
     {
       label: "PDF (TBD)",
       uri: "./geodcat-ap_v2.0.0.pdf",
-    }, 
+    },
     {
       label: "DOCX (TBD)",
       uri: "./geodcat-ap_v2.0.0.docx",
@@ -43,23 +43,23 @@ var respecConfig = {
 */
     {
       label: "RDF/XML",
-      uri: "./geodcat-ap.rdf",
+      uri: "./mobilitydcatap.rdf",
     },
     {
       label: "Turtle",
-      uri: "./geodcat-ap.ttl",
+      uri: "./mobilitydcatap.ttl",
     },
     {
       label: "JSON-LD",
-      uri: "./geodcat-ap.jsonld",
+      uri: "./mobilitydcatap.jsonld",
     },
     {
       label: "SHACL (Turtle)",
-      uri: "./geodcat-ap.shacl.ttl",
+      uri: "./mobilitydcatap.shacl.ttl",
     }
-    ],    
+    ],
 //    implementationReportURI:"https://joinup.ec.europa.eu/document/geodcat-ap-implementations",
-    errata:"https://github.com/SEMICeu/GeoDCAT-AP/issues?q=is%3Aissue+label%3Atype%3Aerratum+label%3Arelease%3A2.0.0",
+    errata:"https://github.com/mobilityDCAT-AP/mobilityDCAT-AP/issues",
 //    specStatus: "unofficial",
     specStatus: "ED",
 //    specStatus: "FPWD",
@@ -69,65 +69,50 @@ var respecConfig = {
 //    specStatus: "REC",
 //    crEnd:"2020-10-12",
 //    prEnd:"2020-12-23",
-    shortName: "geodcat-ap",
-    canonicalURI: "https://semiceu.github.io/GeoDCAT-AP/drafts/latest/",
+    shortName: "mobility-ap",
+    canonicalURI: "https://w3id.org/mobilitydcatap",
 //    canonicalURI: "https://semiceu.github.io/GeoDCAT-AP/drafts/2.0.0-draft-0.1/",
 //    canonicalURI: "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
 //    canonicalURI: "https://semiceu.github.io/GeoDCAT-AP/releases/",
 //    prevRecURI: "https://joinup.ec.europa.eu/release/geodcat-ap/101",
 //    prevRecURI: "https://semiceu.github.io/GeoDCAT-AP/releases/1.0.1/",
-    prevRecURI: "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
+    prevRecURI: "https://w3id.org/mobilitydcatap/1.1/",
 //    previousPublishDate:  "2016-08-02",
 //    previousMaturity:     "final",
 //    previousURI:          "https://joinup.ec.europa.eu/release/geodcat-ap/101",
-/* SEMICEU specific - start */	
+/* SEMICEU specific - start */
 //    thisVersionURI:       "https://semiceu.github.io/GeoDCAT-AP/drafts/latest/",
 //    thisVersionURI:       "https://semiceu.github.io/GeoDCAT-AP/drafts/2.0.0-draft-0.1/",
-    thisVersionURI:       "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
+    thisVersionURI:       "https://w3id.org/mobilitydcatap/1.1/",
 //    prevVersionURI:       "https://semiceu.github.io/GeoDCAT-AP/drafts/latest/",
-    prevVersionURI:       "https://semiceu.github.io/GeoDCAT-AP/drafts/2.0.0-draft-0.1/",
+    prevVersionURI:       "https://w3id.org/mobilitydcatap/1.1/",
 //    latestVersionURI:     "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
-    latestVersionURI:     "https://semiceu.github.io/GeoDCAT-AP/releases/",
-/* SEMICEU specific - end   */	
-    edDraftURI:           "https://semiceu.github.io/GeoDCAT-AP/drafts/latest/",
-    issueBase:            "https://github.com/semiceu/geodcat-ap/issues/",
-    github:               "https://github.com/semiceu/geodcat-ap/",
-    formerEditors: [{
-      name:       "Andrea Perego",
-      company:    "European Commission, Joint Research Centre",
-      orcid:      "0000-0001-9300-2694",
-//      companyURL: "https://ec.europa.eu/jrc/"
-    },{
-      name: "Stijn Goedertier",
-      company: "PwC EU Services",
-//      companyURL: "https://www.pwc.com/gx/en/services/european-union.html"
-    },{
-      name: "Antonio Rotundo",
-      company: "Agenzia per l'Italia Digitale",
-      url: "",
-//      companyURL: "http://www.agid.gov.it/"
-    }],
+    latestVersionURI:     "https://w3id.org/mobilitydcatap/1.1/",
+/* SEMICEU specific - end   */
+    edDraftURI:           "https://w3id.org/mobilitydcatap/1.1/",
+    issueBase:            "https://github.com/mobilityDCAT-AP/mobilityDCAT-AP/issues/",
+    github:               "https://github.com/mobilityDCAT-AP/mobilityDCAT-AP",
     editors: [
       {
-        name:    "Andrea Perego",
-        company: "External Consultant, European Commission, Joint Research Centre",
-        orcid:   "0000-0001-9300-2694",
+        name:    "Lina Molinas Comet",
+        company: "Fraunhofer FIT",
+        orcid:   "0000-0001-5446-6947",
 //        companyURL: "https://ec.europa.eu/jrc/"
       },
       {
-        name: "Bert van Nuffelen",
-        company: "TenForce",
+        name: "Someone Else",
+        company: "Some other Company",
 //        companyURL: ""
       }
     ],
     authors: [
     {
-      name: "GeoDCAT-AP Working Group",
-      url: "https://github.com/semiceu/geodcat-ap/",
-      company: "EU ISA² Programme",
-      companyURL: "https://ec.europa.eu/isa2/"
+      name: "NAPCORE Sub-Working Group (SWG) 4.4",
+      url: "https://github.com/mobilityDCAT-AP/",
+      company: "NAPCORE (National Access Point Coordination Organisation for Europe) Organization",
+      companyURL: "https://napcore.eu/"
     },
-    ],    
+    ],
     otherLinks: [
     {
       key: "Document status",
@@ -143,20 +128,20 @@ var respecConfig = {
       data: [
       {
 //        value: "0.2"
-        value: "1.0"
+        value: "1.1"
       }
       ]
     },
-	    
+
     {
       key: "Reviewed by",
       data: [
       {
-        value: "Pavlina Fragkou (European Commission)",
+        value: "Someone (Some Organization)",
 //        href: "https://ec.europa.eu/"
       },
       {
-        value: "Seth van Hooland (European Commission)",
+        value: "Someone Else (Some Organization)",
 //        href: "https://ec.europa.eu/"
       },
       ]
@@ -165,19 +150,19 @@ var respecConfig = {
       key: "Approved by",
       data: [
       {
-        value: "Pavlina Fragkou (European Commission)",
+        value: "Someone (Some Organization)",
 //        href: "https://ec.europa.eu/"
       },
       {
-        value: "Seth van Hooland (European Commission)",
+        value: "Someone Else (Some Organization)",
 //        href: "https://ec.europa.eu/"
       },
       ]
     }
-      
+
     ],
-    wg: "GeoDCAT-AP Working Group",
-    wgURI: "https://github.com/semiceu/geodcat-ap/",
+    wg: "NAPCORE Sub-Working Group (SWG) 4.4",
+    wgURI: "https://github.com/mobilityDCAT-AP/",
 //    wgURI: "https://joinup.ec.europa.eu/solution/geodcat-ap",
 //    wgPublicList: "",
 //    wgPatentURI: "",
@@ -599,7 +584,7 @@ var respecConfig = {
          "date":"17 April 2018",
          "publisher":"OpenSearch"
       },
-/*      
+/*
       "POWDER-S": {
         "href":"https://www.w3.org/2007/05/powder-s",
         "title":"Protocol for Web Description Resources (POWDER): POWDER-S Vocabulary (WDRS)",
@@ -608,7 +593,7 @@ var respecConfig = {
         "status":"Namespace Document",
         "date":"8 November 2010"
       },
-*/      
+*/
       "SCHEMA-ORG":{
         "href":"http://schema.org/",
         "title":"Schema.org"

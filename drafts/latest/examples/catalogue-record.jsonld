@@ -29,12 +29,12 @@
     ],
     "http://purl.org/dc/terms/source": [
       {
-      "@id": "_:N7f6ddc1dc6c84e1dbc9edd02f210d01a"
+      "@id": "_:Naa5b66a4baf844878e9a336ab249ed10"
       }
     ],
     "http://www.w3.org/ns/dcat#contactPoint": [
       {
-      "@id": "_:N6fd2651c2a084099a4d46aa7b1ad4f1e"
+      "@id": "_:N076672c0eb1c49afa7dd411995ce67ed"
       }
     ],
     "http://xmlns.com/foaf/0.1/primaryTopic": [
@@ -44,7 +44,7 @@
     ]
     },
     {
-    "@id": "_:N6fd2651c2a084099a4d46aa7b1ad4f1e",
+    "@id": "_:N076672c0eb1c49afa7dd411995ce67ed",
     "@type": [
       "http://www.w3.org/2006/vcard/ns#Organization"
     ],
@@ -56,7 +56,7 @@
     ],
     "http://www.w3.org/2006/vcard/ns#hasAddress": [
       {
-      "@id": "_:N90b98ea231b146b59523bd9bf9a6d9fc"
+      "@id": "_:N27ec3e40a0024d0a8365456ca2b7a863"
       }
     ],
     "http://www.w3.org/2006/vcard/ns#hasEmail": [
@@ -66,7 +66,7 @@
     ]
     },
     {
-    "@id": "_:N90b98ea231b146b59523bd9bf9a6d9fc",
+    "@id": "_:N27ec3e40a0024d0a8365456ca2b7a863",
     "@type": [
       "http://www.w3.org/2006/vcard/ns#Address"
     ],
@@ -97,7 +97,23 @@
     ]
     },
     {
-    "@id": "_:N55678cfd6de0473c8a6efe69e0303bdf",
+    "@id": "_:Naa5b66a4baf844878e9a336ab249ed10",
+    "@type": [
+      "http://www.w3.org/ns/dcat#CatalogRecord"
+    ],
+    "http://purl.org/dc/terms/conformsTo": [
+      {
+      "@id": "_:Ndc888c10dfb041fa82a27f3d1d63ec14"
+      }
+    ],
+    "http://www.w3.org/2011/content#characterEncoding": [
+      {
+      "@value": "UTF-8"
+      }
+    ]
+    },
+    {
+    "@id": "_:Ndc888c10dfb041fa82a27f3d1d63ec14",
     "@type": [
       "http://purl.org/dc/terms/Standard"
     ],
@@ -113,24 +129,8 @@
       "@value": "1.0"
       }
     ]
-    },
-    {
-    "@id": "_:N7f6ddc1dc6c84e1dbc9edd02f210d01a",
-    "@type": [
-      "http://www.w3.org/ns/dcat#CatalogRecord"
-    ],
-    "http://purl.org/dc/terms/conformsTo": [
-      {
-      "@id": "_:N55678cfd6de0473c8a6efe69e0303bdf"
-      }
-    ],
-    "http://www.w3.org/2011/content#characterEncoding": [
-      {
-      "@value": "UTF-8"
-      }
-    ]
     }
   ],
-  "@id": "file:///var/www/html/git/github/semiceu/GeoDCAT-AP.fix-issue-61/drafts/latest/examples/catalogue-record.rdf"
+  "@id": "file:///home/molinasc/Documents/GitHubProjects/mobilityDCAT-AP/drafts/latest/examples/catalogue-record.rdf"
   }
 ]

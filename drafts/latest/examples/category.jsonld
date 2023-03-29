@@ -2,13 +2,13 @@
   {
   "@graph": [
     {
-    "@id": "_:N87ac041d036347db9e91fd6da2c3fbc8",
+    "@id": "_:Nd27d17aeecda4123b46bcdbd043b0409",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-      "@id": "_:Ne3bf091feeb94de78ef8f2ed90608ca1"
+      "@id": "_:Nd47e0312ab3d4dfc8667df0c7e975e6f"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -19,7 +19,7 @@
     ]
     },
     {
-    "@id": "_:Ne3bf091feeb94de78ef8f2ed90608ca1",
+    "@id": "_:Nd47e0312ab3d4dfc8667df0c7e975e6f",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
@@ -37,6 +37,6 @@
     ]
     }
   ],
-  "@id": "file:///var/www/html/git/github/semiceu/GeoDCAT-AP.fix-issue-61/drafts/latest/examples/category.rdf"
+  "@id": "file:///home/molinasc/Documents/GitHubProjects/mobilityDCAT-AP/drafts/latest/examples/category.rdf"
   }
 ]

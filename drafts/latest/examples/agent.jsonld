@@ -2,7 +2,34 @@
   {
   "@graph": [
     {
-    "@id": "_:N0482edc68d474fe8b8780a5ad8d21af6",
+    "@id": "_:Nca927052e4564d28bbc5a91697ac5405",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Organization"
+    ],
+    "http://www.w3.org/ns/locn#address": [
+      {
+      "@id": "_:N06c9077946b14480ad1a1d82faf1cbd5"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/mbox": [
+      {
+      "@id": "mailto:sdi@eea.europa.eu"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+      "@language": "en",
+      "@value": "European Environment Agency"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/phone": [
+      {
+      "@id": "tel:+451234567890"
+      }
+    ]
+    },
+    {
+    "@id": "_:N06c9077946b14480ad1a1d82faf1cbd5",
     "@type": [
       "http://www.w3.org/ns/locn#Address"
     ],
@@ -31,35 +58,8 @@
       "@value": "Kongens Nytorv 6"
       }
     ]
-    },
-    {
-    "@id": "_:N4492ff2123b646a982392c9207fc04e8",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Organization"
-    ],
-    "http://www.w3.org/ns/locn#address": [
-      {
-      "@id": "_:N0482edc68d474fe8b8780a5ad8d21af6"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/mbox": [
-      {
-      "@id": "mailto:sdi@eea.europa.eu"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/name": [
-      {
-      "@language": "en",
-      "@value": "European Environment Agency"
-      }
-    ],
-    "http://xmlns.com/foaf/0.1/phone": [
-      {
-      "@id": "tel:+451234567890"
-      }
-    ]
     }
   ],
-  "@id": "file:///var/www/html/git/github/semiceu/GeoDCAT-AP.fix-issue-61/drafts/latest/examples/agent.rdf"
+  "@id": "file:///home/molinasc/Documents/GitHubProjects/mobilityDCAT-AP/drafts/latest/examples/agent.rdf"
   }
 ]
