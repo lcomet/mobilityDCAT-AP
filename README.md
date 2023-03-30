@@ -2,11 +2,11 @@
 
 This is the issue tracker for the maintenance of [mobilityDCAT-AP](https://napcore.eu/providing-a-baseline-for-a-new-metadata-scheme-for-european-naps/).
 
-mobilityoDCAT-AP is an extension of [DCAT-AP](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe) for describing mobility datasets, dataset series, and services. It provides an RDF syntax binding for the union of metadata elements defined in the National Access Points across Europe. Its basic use case is to make mobility datasets, data series, and services searchable on general data portals, thereby making mobility information better searchable across borders and sectors.
+mobilityDCAT-AP is an extension of [DCAT-AP](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe) for describing mobility datasets, dataset series, and services. It provides an RDF syntax binding for the union of metadata elements defined in the National Access Points across Europe. Its basic use case is to make mobility datasets, data series, and services searchable on general data portals, thereby making mobility information better searchable across borders and sectors.
 
 mobilityDCAT-AP is an initiative of the [NAPCORE (National Access Point Coordination Organisation for Europe)](https://napcore.eu/), a formed organisation to coordinate and harmonise more than 30 mobility data platforms across Europe.
 
-The latest version of mobilityoDCAT-AP (v1.1) is available:
+The latest version of mobilityDCAT-AP (v1.1) is available:
 
 [http://localhost:8000/Documents/GitHubProjects/mobilityDCAT-AP/drafts/latest/](http://localhost:8000/Documents/GitHubProjects/mobilityDCAT-AP/drafts/latest/)
 
