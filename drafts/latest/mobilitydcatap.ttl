@@ -33,12 +33,14 @@ vann:preferredNamespaceUri a owl:AnnotationProperty .
     "mobilityDCAT-AP Essential Metadata Elements"@en,
     "mobilityDCAT-AP Elementos de Metadatos Esenciales"@es,
     "mobilityDCAT-AP Essentiële Metadata Elementen"@nl ;
-  terms:contributor <https://github.com/lcomet>,
+  terms:contributor <http://w3id.org/mobilitydcatap#haustild>,
+    <http://w3id.org/mobilitydcatap#plubrich>,
+    <https://github.com/lcomet>,
     <https://github.com/marioscrock>,
     <https://github.com/orgs/mobilityDCAT-AP/people/jonas-jaderberg> ;
   terms:creator "NAPCORE SWG 4.4."@en ;
   terms:license "https://creativecommons.org/licenses/by/4.0/" ;
-  terms:modified "2023-03-28" ;
+  terms:modified "2023-03-30" ;
   vann:preferredNamespacePrefix "http://w3id.org/mobilitydcatap",
     "mobilitydcatap" ;
   rdfs:comment "Dieses Vokabular definiert die grundlegenden Metadatenelemente, die dem konzeptionellen Modell der mobilityDCAT-AP entsprechen."@de,
@@ -154,6 +156,14 @@ foaf:Organization a owl:Class ;
 
 foaf:name a owl:AnnotationProperty .
 
+<http://w3id.org/mobilitydcatap#haustild> a owl:NamedIndividual,
+    foaf:Person ;
+  foaf:name "Hilde Austild" .
+
+<http://w3id.org/mobilitydcatap#plubrich> a owl:NamedIndividual,
+    foaf:Person ;
+  foaf:name "Peter Lubrich" .
+
 <http://www.w3.org/2006/vcard/ns#Kind> a owl:Class .
 
 dcat:Catalog a owl:Class .
@@ -193,9 +203,6 @@ dcat:theme a owl:ObjectProperty .
   rdfs:label "Data Platform Entry" ;
   rdfs:subClassOf dcat:CatalogRecord .
 
-foaf:Person a owl:Class ;
-  rdfs:subClassOf foaf:Agent .
-
 skos:Concept a owl:Class ;
   rdfs:label "Concept" ;
   rdfs:isDefinedBy <http://www.w3.org/2004/02/skos/core> .
@@ -203,6 +210,9 @@ skos:Concept a owl:Class ;
 <http://w3id.org/mobilitydcatap#DataPlatform> a owl:Class ;
   rdfs:label "Data Platform" ;
   rdfs:subClassOf dcat:Catalog .
+
+foaf:Person a owl:Class ;
+  rdfs:subClassOf foaf:Agent .
 
 foaf:Agent a owl:Class .
 

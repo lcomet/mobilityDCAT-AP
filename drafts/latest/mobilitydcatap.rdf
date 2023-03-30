@@ -16,12 +16,14 @@
     <owl:Ontology rdf:about="http://w3id.org/mobilitydcatap">
         <owl:versionIRI rdf:resource="http://w3id.org/mobilitydcatap/1.1/"/>
         <owl:imports rdf:resource="http://www.w3.org/ns/dcat"/>
+        <terms:contributor rdf:resource="http://w3id.org/mobilitydcatap#haustild"/>
+        <terms:contributor rdf:resource="http://w3id.org/mobilitydcatap#plubrich"/>
         <terms:contributor rdf:resource="https://github.com/lcomet"/>
         <terms:contributor rdf:resource="https://github.com/marioscrock"/>
         <terms:contributor rdf:resource="https://github.com/orgs/mobilityDCAT-AP/people/jonas-jaderberg"/>
         <terms:creator xml:lang="en">NAPCORE SWG 4.4.</terms:creator>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
-        <terms:modified>2023-03-28</terms:modified>
+        <terms:modified>2023-03-30</terms:modified>
         <vann:preferredNamespacePrefix>http://w3id.org/mobilitydcatap</vann:preferredNamespacePrefix>
         <vann:preferredNamespacePrefix>mobilitydcatap</vann:preferredNamespacePrefix>
         <rdfs:comment xml:lang="nl">Deze woordenlijst definieert de essentiële metadata-elementen die overeenkomen met het conceptuele model van het mobilityDCAT-AP.</rdfs:comment>
@@ -441,6 +443,24 @@ Rather than using free keywords, usage of predefined values is recommended. The 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://w3id.org/mobilitydcatap#haustild -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/mobilitydcatap#haustild">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:name>Hilde Austild</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/mobilitydcatap#plubrich -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/mobilitydcatap#plubrich">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:name>Peter Lubrich</foaf:name>
+    </owl:NamedIndividual>
     
 
 

@@ -2,28 +2,6 @@
   {
   "@graph": [
     {
-    "@id": "http://data.europa.eu/930/spatialResolutionAsAngularDistance",
-    "@type": [
-      "http://www.w3.org/ns/dqv#Metric"
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-      "@language": "en",
-      "@value": "Spatial resolution as angular distance"
-      }
-    ],
-    "http://www.w3.org/ns/dqv#expectedDataType": [
-      {
-      "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-      }
-    ],
-    "http://www.w3.org/ns/dqv#inDimension": [
-      {
-      "@id": "http://www.w3.org/ns/dqv#precision"
-      }
-    ]
-    },
-    {
     "@id": "http://data.europa.eu/930/spatialResolutionAsVerticalDistance",
     "@type": [
       "http://www.w3.org/ns/dqv#Metric"
@@ -46,14 +24,14 @@
     ]
     },
     {
-    "@id": "http://data.europa.eu/930/spatialResolutionAsDistance",
+    "@id": "http://data.europa.eu/930/spatialResolutionAsAngularDistance",
     "@type": [
       "http://www.w3.org/ns/dqv#Metric"
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
       "@language": "en",
-      "@value": "Spatial resolution as distance"
+      "@value": "Spatial resolution as angular distance"
       }
     ],
     "http://www.w3.org/ns/dqv#expectedDataType": [
@@ -76,6 +54,28 @@
       {
       "@language": "en",
       "@value": "Spatial resolution as equivalent scale"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#expectedDataType": [
+      {
+      "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+      }
+    ],
+    "http://www.w3.org/ns/dqv#inDimension": [
+      {
+      "@id": "http://www.w3.org/ns/dqv#precision"
+      }
+    ]
+    },
+    {
+    "@id": "http://data.europa.eu/930/spatialResolutionAsDistance",
+    "@type": [
+      "http://www.w3.org/ns/dqv#Metric"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+      "@language": "en",
+      "@value": "Spatial resolution as distance"
       }
     ],
     "http://www.w3.org/ns/dqv#expectedDataType": [
